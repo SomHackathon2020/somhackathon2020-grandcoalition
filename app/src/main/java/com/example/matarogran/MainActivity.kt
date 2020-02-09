@@ -48,22 +48,23 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
 
-            if (userName.text.toString() == "dev" && userPassword.text.toString() == "dev") {
+//            if (userName.text.toString() == "dev" && userPassword.text.toString() == "dev") {
+//
+//                val intent = Intent(this, ListAct::class.java)
+//                startActivity(intent)
+//
+//            } else {
+//
+//                val dialog = AlertDialog.Builder(context)
+//                    .setTitle("Oops!")
+//                    .setMessage("Usuari o contrasenya incorrecte")
+//                val alert = dialog.create()
+//                alert.show()
+//
+//            }
 
-                val intent = Intent(this, ListAct::class.java)
+               val intent = Intent(this, ListAct::class.java)
                 startActivity(intent)
-
-            } else {
-
-                val dialog = AlertDialog.Builder(context)
-                    .setTitle("Oops!")
-                    .setMessage("Usuari o contrasenya incorrecte")
-                val alert = dialog.create()
-                alert.show()
-
-            }
-
-
 
         }
 
